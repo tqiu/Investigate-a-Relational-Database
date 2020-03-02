@@ -1,10 +1,10 @@
 
 # Investigate a movie rental database
-### In this project, I wrote SQL queries (Aggregation, Join, Subqueries, Common Table Expressions, Window Functions) to gain insights into the database and built visualizations to showcase the output of queries. 
+### In this project, I wrote SQL queries (Aggregation, Join, Subqueries, Common Table Expressions, Window Functions) to gain insights into the database and built visualizations to showcase the output of queries.
 
 ## Question 1: Of all the family movies, which actor’s movie has been rented out the most?
 
-![image.png](attachment:image.png)
+![image.png](image1.png)
 
 #### We can see that for family movies, the movies starring Gina Degeneres have the largest amount of rentals, which is 363.
 
@@ -43,7 +43,7 @@ LIMIT
 
 ## Question 2: What are the percentages of movies in the 4th quartile of rental durations for each family movie category?
 
-![image.png](attachment:image.png)
+![image.png](image2.png)
 
 #### Within each family movie category, about a quarter of movies were rented out for the longest duration (4th quartile calculated over all movie categories). Among which the Classics movies have the largest percentage, 28%.
 
@@ -95,7 +95,7 @@ ORDER BY
 
 ## Question 3: For our top 10 paying customers, during which month they spent the most in 2007?
 
-![image.png](attachment:image.png)
+![image.png](image3.png)
 
 #### 8 of our top 10 paying customers spent the most in April. The rest 2 spent the most in March.
 
@@ -159,7 +159,7 @@ ORDER BY
 
 ## Question 4: Of the top 10 paying customers, which customer paid the most difference between two successive months during the year?
 
-![image.png](attachment:image.png)
+![image.png](image4.png)
 
 #### Based on the absolute difference between two successive months calculated here, the customer which paid the most difference is Marion Snyder, who paid \$80.83 less in May than in April.
 
